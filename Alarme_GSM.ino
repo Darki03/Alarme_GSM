@@ -11,11 +11,16 @@
 #define NO_PORTD_PINCHANGES // to indicate that port d will not be used for pin change interrupts
 
 //-------- Ajout des librairies --------//
-#include <SoftwareSerial.h> //Librairie pour liaison série logicielle
-#include <Wire.h> //Librairie pour l'I2C
-#include "FONA/Adafruit_FONA.h" //Librairie pour le module FONA
-#include "Adafruit_BMP085/Adafruit_BMP085.h" //Librairie pour le module BMP085
-#include <PinChangeInt/PinChangeInt.h> //Librairie pour gestion les interruptions "pin change"
+#include <Wire.h>
+#include <SoftwareSerial.h>
+#include <Adafruit_FONA.h>
+#include <Adafruit_BMP085.h>
+#include <PinChangeInt.h>
+/*#include <PinChangeInterrupt.h>
+#include <PinChangeInterruptBoards.h>
+#include <PinChangeInterruptPins.h>
+#include <PinChangeInterruptSettings.h>*/
+
 //-----------------------------------------//
 
 //-------- Declaration des broches --------//
