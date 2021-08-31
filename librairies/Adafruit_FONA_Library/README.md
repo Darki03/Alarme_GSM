@@ -1,14 +1,11 @@
-# Adafruit FONA Library[![Build Status](https://github.com/adafruit/Adafruit_FONA/workflows/Arduino%20Library%20CI/badge.svg)](https://github.com/adafruit/Adafruit_FONA/actions)[![Documentation](https://github.com/adafruit/ci-arduino/blob/master/assets/doxygen_badge.svg)](http://adafruit.github.io/Adafruit_FONA/html/index.html)
-
-**This library requires Arduino v1.0.6 or higher**
+Adafruit_FONA_Library
+=====================
 
 This is a library for the Adafruit FONA Cellular GSM Breakouts etc
 
 Designed specifically to work with the Adafruit FONA Breakout
-  * https://www.adafruit.com/products/1946
-  * https://www.adafruit.com/products/1963
-  * http://www.adafruit.com/products/2468
-  * http://www.adafruit.com/products/2542
+  ----> https://www.adafruit.com/products/1946
+  ----> https://www.adafruit.com/products/1963
 
 These modules use TTL Serial to communicate, 2 pins are required to interface
 
